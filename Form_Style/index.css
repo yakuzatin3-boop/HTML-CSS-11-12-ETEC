@@ -1,0 +1,85 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/7b/db/a2/7bdba272b3d63e06de1841c531fe857f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    width: 400px;
+    margin:90px auto;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background-color: rgba(26, 26, 27, 0.312);
+    padding: 50px;
+    box-shadow: 2px 2px 19px 2px red inset;
+}
+.login-text{
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.884);
+}
+.sub-title{
+    text-align: center;
+    color: rgb(164, 168, 170);
+}
+.label-input{
+    color: rgb(234, 230, 228);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input-form{
+    width: 98%;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 7px 1px rgba(190, 168, 168, 0.661) inset;
+    border-radius: 20px;
+    background-color: rgba(175, 180, 185, 0.207);
+    color: aliceblue;
+    font-size: 20px;
+}
+.input-form:hover{
+    border: 2px solid blue;
+}
+.input-form::placeholder{
+    color: rgb(196, 201, 205);
+    font-style: italic;
+}
+.or{
+    text-align: center;
+    color: aliceblue;
+}
+.google-btn{
+    display: flex;
+    gap: 5px;
+    justify-content:center ;
+    align-items: center;
+    padding: 5px;
+    width: 101%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(213, 218, 223, 0.824);
+}
+.google-logo{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.google-btn span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-login{
+    background-color: rgb(255, 230, 0);
+    width: 101%;
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+}
+.btn-login:hover{
+    background-color: blue;
+    color: aliceblue;
+}
